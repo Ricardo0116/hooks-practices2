@@ -37,3 +37,18 @@
     transform: rotate(360deg);
   }
 }
+
+.button-large {
+  font-size: 20px; /*aumenta el tamaño de la fuente*/
+  padding: 15px 30px; /* aumenta el relleno del boton*/
+  background-color: #4CAF50; /*fondo verde */
+  color: white; /*tecto blanco */
+  border: none; /*sin borde */
+  border-radius: 5px; /*bordes redondeados */
+  cursor: pointer; /*cambia el cursor al pasar por encima */
+  transition: background-color 0.3s; /*transicion suave para el cambio de color */
+}
+
+.button-large:hover {
+  background-color: #45a049; /*color de fondo cuando el cursor esta sobre el raton */
+}
