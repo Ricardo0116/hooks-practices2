@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { MyFirstComponent } from './components/MyFirstComponent';
+import { SecondComponent } from './components/SecondComponent';
 
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
         <div>
           <hr />
           <MyFirstComponent />
+          <hr />
+          <SecondComponent />
         </div>
       </header>
     </div>
